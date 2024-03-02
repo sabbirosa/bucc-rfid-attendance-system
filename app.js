@@ -5,8 +5,10 @@ function getFormattedTimestamp() {
 
 document.addEventListener('DOMContentLoaded', function() {
     const membersDatabase = [
-        { rfid: '0015281275', name: 'Nafis Sadique Niloy', designation: 'President' },
-        { rfid: '0016258672', name: 'Udoy Saha', designation: 'Vice President' }
+        { rfid: '1', name: 'Nafis Sadique Niloy', designation: 'President' },
+        { rfid: '2', name: 'Udoy Saha', designation: 'Vice President' },
+        { rfid: '3', name: 'Tahmim Hassan', designation: 'General Secretary' },
+        { rfid: '4', name: 'Ayesha Bintee Rob', designation: 'Treasurer' }
     ];
 
     function getMemberDetailsByRFID(rfidTag) {
