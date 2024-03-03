@@ -6,7 +6,7 @@ function getFormattedTimestamp() {
 document.addEventListener('DOMContentLoaded', function() {
     const membersDatabase = [
         { rfid: '0015236725', name: 'Nafis Sadique Niloy', designation: 'President' },
-        { rfid: '2', name: 'Udoy Saha', designation: 'Vice President' },
+        { rfid: '0015326258', name: 'Udoy Saha', designation: 'Vice President' },
         { rfid: '0015359418', name: 'Tahmim Hassan', designation: 'General Secretary' },
         { rfid: '0001288412', name: 'Ayesha Bintee Rob', designation: 'Treasurer' }
     ];
